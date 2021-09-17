@@ -53,7 +53,7 @@
   display: block;
   margin-bottom: 20px;
 
-  @include font(14px, 1.14);
+  @include font(14px, 1.14, 700);
   text-transform: uppercase;
 
   color: var(--second-text-color);
