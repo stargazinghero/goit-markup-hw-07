@@ -1,0 +1,6 @@
+.container {
+  width: 1200px;
+  @include margin-vert-center();
+  padding-left: 15px;
+  padding-right: 15px;
+}

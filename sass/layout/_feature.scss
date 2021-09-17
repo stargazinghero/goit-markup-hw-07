@@ -1,0 +1,33 @@
+.feature {
+  padding-bottom: 47px;
+}
+
+.feature-list {
+  @include flex-wrap-list();
+}
+
+.feature-list__block {
+  padding: 25px 100px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-color: var(--feature-bg-color);
+  border-radius: 4px;
+}
+
+.feature-list__item {
+  flex-basis: calc(100% / 4 - var(--list-set-gap));
+  @include list-set-gap();
+}
+
+.feature-list__title {
+  margin-bottom: 10px;
+
+  @include font(14px, 1.14, 700);
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.feature-list__text {
+  @include font(14px, 1.71);
+}
