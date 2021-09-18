@@ -42,11 +42,11 @@
 
 .footer-main {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-social {
   margin-left: 70px;
-  padding-top: 12px;
 }
 
 .footer-title {
@@ -73,7 +73,6 @@
 
 .footer-subscribe {
   margin-left: auto;
-  padding-top: 12px;
 }
 
 .form-subscribe__field {

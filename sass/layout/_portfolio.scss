@@ -36,7 +36,12 @@
 .project-list__item {
   flex-basis: calc(100% / 3 - var(--list-set-gap));
   @include list-set-gap();
+}
 
+.project-list__link {
+  display: block;
+
+  color: inherit;
   transition: box-shadow var(--duration) var(--timing-function);
   &:hover,
   &:focus {
@@ -70,10 +75,6 @@
   padding: 20px 24px;
 
   border: 1px solid var(--porfolio-border-card-color);
-}
-
-.project-list__link {
-  color: inherit;
 }
 
 .project-title__main {

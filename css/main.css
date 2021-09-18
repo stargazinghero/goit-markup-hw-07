@@ -149,8 +149,7 @@ img {
 }
 
 .button {
-  min-width: 200px;
-  height: 50px;
+  padding: 10px 32px;
   font-size: 16px;
   line-height: 1.87;
   font-weight: 700;
@@ -710,11 +709,11 @@ img {
 
 .footer-main {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-social {
   margin-left: 70px;
-  padding-top: 12px;
 }
 
 .footer-title {
@@ -739,7 +738,6 @@ img {
 
 .footer-subscribe {
   margin-left: auto;
-  padding-top: 12px;
 }
 
 .form-subscribe__field {
@@ -834,10 +832,15 @@ img {
   flex-basis: calc(100% / 3 - var(--list-set-gap));
   margin-left: var(--list-set-gap);
   margin-top: var(--list-set-gap);
+}
+
+.project-list__link {
+  display: block;
+  color: inherit;
   transition: box-shadow var(--duration) var(--timing-function);
 }
 
-.project-list__item:hover, .project-list__item:focus {
+.project-list__link:hover, .project-list__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -870,10 +873,6 @@ img {
 .project-title {
   padding: 20px 24px;
   border: 1px solid var(--porfolio-border-card-color);
-}
-
-.project-list__link {
-  color: inherit;
 }
 
 .project-title__main {

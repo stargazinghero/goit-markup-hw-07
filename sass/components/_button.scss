@@ -1,6 +1,5 @@
 .button {
-  min-width: 200px;
-  height: 50px;
+  padding: 10px 32px;
 
   @include font(16px, 1.87, 700, 0.06em);
   cursor: pointer;
